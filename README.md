@@ -10,6 +10,8 @@
 
 Siren hypermedia support extracted as a third party package directly from the official Django REST Framework implementation. It's based on the Siren specification located [here][siren].
 
+*Note:* As of the 0.1.0 release, `django-rest-framework-siren` does not support adding actions as specified by siren.
+
 ## Requirements
 
 * Python (2.7, 3.3, 3.4)
@@ -46,7 +48,7 @@ REST_FRAMEWORK = {
 }
 ```
 
-You must then use the serializers defined in the `rest_framework_siren.serizlizers` module.  
+You must then use the serializers defined in the `rest_framework_siren.serializers` module.  
 There is currently only support for the `ModelSerizlizer` and `HyperlinkedModelSerializer` types.
 
 For example, if this is your current `serializers.py` file:
