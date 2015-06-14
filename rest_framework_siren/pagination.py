@@ -12,7 +12,7 @@ class SirenPagination(PageNumberPagination):
     """
     Pagination class for Siren
     """
-    @staticmethod
+    
     def _link_maker(rel, href):
         return OrderedDict(
             ('rel', rel),
