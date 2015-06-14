@@ -14,10 +14,10 @@ class SirenPagination(PageNumberPagination):
     """
 
     def _link_maker(self, rel, href):
-        return OrderedDict(
+        return OrderedDict([
             ('rel', rel),
             ('href', href),
-        )
+        ])
 
     def get_paginated_response(self, data):
         links = [
