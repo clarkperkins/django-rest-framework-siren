@@ -31,14 +31,17 @@ REST_FRAMEWORK = {
     # Optional - will simply set the media type to application/vnd.siren+json
     'DEFAULT_RENDERER_CLASSES': (
         'rest_framework_siren.renderers.SirenRenderer',
+        'rest_framework.renderers.BrowsableAPIRenderer',
+        ...
     ),
     
     # Also optional - will allow responses with a application/vnd.siren+json media type
     'DEFAULT_PARSER_CLASSES': (
         'rest_framework_siren.parsers.SirenParser',
+        ...
     ),
     
-    # Required - 
+    # Required - does the transformation into siren formatting
     'DEFAULT_PAGINATION_CLASS': 'rest_framework_siren.pagination.SirenPagination',
 }
 ```
