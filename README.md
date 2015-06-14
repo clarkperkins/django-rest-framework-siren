@@ -110,7 +110,7 @@ class UserViewSet(viewsets.ModelViewSet):
     "username": "clarkperkins"
   },
   "links": [
-    "rel": ["self"], "href": "http://127.0.0.1:8000/users/1/"
+    {"rel": ["self"], "href": "http://127.0.0.1:8000/users/1/"}
   ]
 }
 ```
