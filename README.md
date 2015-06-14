@@ -8,7 +8,7 @@
 
 ## Overview
 
-Siren hypermedia support extracted as a third party package directly from the official Django REST Framework implementation. It's based on the Siren specification located [here][https://github.com/kevinswiber/siren].
+Siren hypermedia support extracted as a third party package directly from the official Django REST Framework implementation. It's based on the Siren specification located [here][siren].
 
 ## Requirements
 
@@ -128,3 +128,4 @@ You may also want to follow the [author][clarkperkins] on Twitter.
 [pypi]: https://pypi.python.org/pypi/djangorestframework-siren
 [docs]: http://clarkperkins.github.io/django-rest-framework-siren
 [clarkperkins]: https://twitter.com/rclarkperkins
+[siren]: https://github.com/kevinswiber/siren
