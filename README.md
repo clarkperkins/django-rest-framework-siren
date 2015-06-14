@@ -10,7 +10,7 @@
 
 Siren hypermedia support extracted as a third party package directly from the official Django REST Framework implementation. It's based on the Siren specification located [here][siren].
 
-*Note:* As of the 0.1.0 release, `django-rest-framework-siren` does not support adding actions as specified by siren.
+*Note:* As of the 0.1.0 release, `django-rest-framework-siren` does not support adding `actions` as specified by siren.
 
 ## Requirements
 
