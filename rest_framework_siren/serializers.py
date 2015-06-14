@@ -57,7 +57,6 @@ class SirenSerializerMixin(object):
             ('class', return_class),
             ('properties', properties),
             ('entities', entities),
-            ('actions', []),
             ('links', links),
         ])
 

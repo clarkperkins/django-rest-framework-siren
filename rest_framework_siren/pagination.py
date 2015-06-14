@@ -26,6 +26,5 @@ class SirenPagination(PageNumberPagination):
         return Response(OrderedDict([
             ('properties', {'count': self.page.paginator.count}),
             ('entities', data),
-            ('actions', []),
             ('links', links),
         ]))
