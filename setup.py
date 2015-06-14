@@ -6,7 +6,8 @@ from setuptools import setup, find_packages
 description = 'Siren hypermedia support for Django REST Framework'
 package = 'rest_framework_siren'
 install_requires = [
-    'PyYAML>=3.10',
+    'Django>=1.6',
+    'djangorestframework>=2.4.3'
 ]
 
 
