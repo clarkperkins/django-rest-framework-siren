@@ -2,6 +2,8 @@
 Siren pagination
 """
 
+from __future__ import unicode_literals
+
 from collections import OrderedDict
 
 from rest_framework.pagination import PageNumberPagination

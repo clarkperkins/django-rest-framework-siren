@@ -1,8 +1,7 @@
 REST Framework Siren
 ====================
 
-| |build-status-image|
-| |pypi-version|
+|TravisCI| |PyPi|
 
 **Siren hypermedia support for Django REST Framework**
 
@@ -137,7 +136,7 @@ http://clarkperkins.github.io/django-rest-framework-siren.
 You may also want to follow the
 `author <https://twitter.com/rclarkperkins>`__ on Twitter.
 
-.. |build-status-image| image:: https://secure.travis-ci.org/clarkperkins/django-rest-framework-siren.svg?branch=master
-   :target: http://travis-ci.org/clarkperkins/django-rest-framework-siren?branch=master
-.. |pypi-version| image:: https://img.shields.io/pypi/v/djangorestframework-siren.svg
+.. |TravisCI| image:: https://travis-ci.org/clarkperkins/django-rest-framework-siren.svg?branch=master
+   :target: http://travis-ci.org/clarkperkins/django-rest-framework-siren
+.. |PyPi| image:: https://img.shields.io/pypi/v/djangorestframework-siren.svg
    :target: https://pypi.python.org/pypi/djangorestframework-siren

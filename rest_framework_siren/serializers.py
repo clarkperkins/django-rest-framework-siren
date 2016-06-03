@@ -2,6 +2,8 @@
 Serializers for Siren
 """
 
+from __future__ import unicode_literals
+
 import logging
 
 from rest_framework.serializers import *
@@ -13,6 +15,10 @@ logger = logging.getLogger(__name__)
 
 
 class SirenSerializerMixin(object):
+    """
+    This mixin should be used to generate a proper siren json structure
+    """
+
     def to_representation(self, instance):
         """
         Object instance -> Dict of primitive datatypes.
@@ -55,6 +61,10 @@ class SirenSerializerMixin(object):
             ('entities', entities),
             ('links', links),
         ])
+
+
+class Serializer(SirenSerializerMixin, Serializer):
+    pass
 
 
 class ModelSerializer(SirenSerializerMixin, ModelSerializer):
