@@ -129,13 +129,11 @@ Sample output
 Documentation & Support
 -----------------------
 
-Full documentation for the project is available at
-http://clarkperkins.github.io/django-rest-framework-siren.
+Full documentation for the project is available at https://djangorestframework-siren.readthedocs.io/en/latest/.
 
-You may also want to follow the
-`author <https://twitter.com/rclarkperkins>`__ on Twitter.
+You may also want to follow the `author <https://twitter.com/rclarkperkins>`__ on Twitter.
 
 .. |TravisCI| image:: https://travis-ci.org/clarkperkins/django-rest-framework-siren.svg?branch=master
-   :target: http://travis-ci.org/clarkperkins/django-rest-framework-siren
+   :target: https://travis-ci.org/clarkperkins/django-rest-framework-siren
 .. |PyPi| image:: https://img.shields.io/pypi/v/djangorestframework-siren.svg
    :target: https://pypi.python.org/pypi/djangorestframework-siren
