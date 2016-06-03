@@ -1,5 +1,5 @@
 
-from rest_framework_siren.compat import OrderedDict
+from collections import OrderedDict
 
 
 def link_maker(rel, href):

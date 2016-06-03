@@ -4,19 +4,15 @@ Serializers for Siren
 
 import logging
 
-
-from rest_framework.fields import SkipField
 from rest_framework.serializers import *
 from rest_framework.settings import api_settings
 
-from rest_framework_siren.compat import OrderedDict
 from rest_framework_siren.utils import link_maker
 
 logger = logging.getLogger(__name__)
 
 
 class SirenSerializerMixin(object):
-
     def to_representation(self, instance):
         """
         Object instance -> Dict of primitive datatypes.

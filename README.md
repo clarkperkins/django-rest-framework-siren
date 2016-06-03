@@ -14,8 +14,8 @@ Siren hypermedia support extracted as a third party package directly from the of
 
 ## Requirements
 
-* Python (2.7, 3.3, 3.4)
-* Django (1.6, 1.7, 1.8)
+* Python (2.7, 3.4)
+* Django (1.7, 1.8, 1.9)
 * Django REST Framework (2.4+, 3.0+)
 
 ## Installation

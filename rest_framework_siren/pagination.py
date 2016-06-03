@@ -2,10 +2,11 @@
 Siren pagination
 """
 
+from collections import OrderedDict
+
 from rest_framework.pagination import PageNumberPagination
 from rest_framework.response import Response
 
-from rest_framework_siren.compat import OrderedDict
 from rest_framework_siren.utils import link_maker
 
 
@@ -13,8 +14,6 @@ class SirenPagination(PageNumberPagination):
     """
     Pagination class for Siren
     """
-
-
 
     def get_paginated_response(self, data):
         links = [
