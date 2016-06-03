@@ -55,10 +55,9 @@ Example
         'DEFAULT_PAGINATION_CLASS': 'rest_framework_siren.pagination.SirenPagination',
     }
 
-| You must then use the serializers defined in the
-  ``rest_framework_siren.serializers`` module.
-| There is currently only support for the ``ModelSerizlizer`` and
-  ``HyperlinkedModelSerializer`` types.
+| You must then use the serializers defined in the ``rest_framework_siren.serializers`` module.
+| There is currently support for the ``Serializer``, ``ModelSerializer`` and ``HyperlinkedModelSerializer`` types.
+
 
 For example, if this is your current ``serializers.py`` file:
 
